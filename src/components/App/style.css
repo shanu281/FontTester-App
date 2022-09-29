@@ -39,18 +39,33 @@ body{
 background-color: aliceblue;
     
   }
-  #search{
-    width: 25%;
-    height: 3rem;
-    border-radius: 20px;
-}
+
 #text{
     width: 25%;
     height: 3rem;
     border-radius: 20px;
+    border-color: none;
+   
+
 }
   #size{
       width: 30%;
       
 
+  }
+  #text{
+      font-size: 1.2rem;
+      font-weight: 600;
+  }
+  input[type="range" i]{
+      cursor: pointer;
+  }
+  #fontSize{
+      width: 8%;
+      height: 3rem;
+      border-radius: 20px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      text-align: center;
+      border-color: none;
   }
